@@ -1,0 +1,93 @@
+.destination{
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid #E3E3E3;
+	position: relative;
+	margin: 10px;
+	
+}
+
+.destination .photo, .destination .photo img{
+	background: url('../../images/destination-1.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 270px;
+	
+}
+
+
+.destination .destination-btn a{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	background: #f9ab30;
+	padding: 8px;
+	border-radius: 50px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	transition:all 0.3s;
+}
+
+.destination:hover a{
+	background: #343a40;
+	padding:10px 15px;
+}
+
+.destination .destination-info{
+	padding-top: 30px;
+	padding-left: 25px;
+	padding-bottom: 30px;
+	
+}
+
+
+
+.destination .destination-info p{
+	color: #AFAFAF;
+	font-size: 12px;
+	font-weight: 300;
+	padding-left: 10px;
+
+}
+.destination .destination-info h4{
+	color: #AFAFAF;
+	font-size: 16px;
+	font-weight: 400;
+	padding-top: 15px;
+	
+	
+	
+}
+.destination .destination-info h2{
+	font-size: 24px;
+	font-weight: 400;
+	padding-left: 10px;
+	padding-top: 15px;
+
+}
+
+.destination .icon p{
+	padding-left: 5px;
+	display: inline-block;
+	color: #000;
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 15px;
+
+}
+
+.destination i{
+	color: #F9AB30;
+
+
+}
+
+.destination ion-icon{
+	font-size: 26px;
+	vertical-align: bottom;
+	padding-left: 5px;
+	margin-right: 6px;
+
+}
