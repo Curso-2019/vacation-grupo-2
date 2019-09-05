@@ -1,0 +1,51 @@
+.feedback{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-image: url('../../images/bg_3.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.feedback .info{
+    display: flex;
+}
+
+.feedback .info .info-col{
+    padding: 10px;
+    width: 33.33%;
+}
+
+.feedback .info .box{
+    background: #fff;
+    padding: 20px;
+}
+
+.feedback .info .box p{
+    color: #999;
+    line-height: 1.9;
+}
+
+.feedback .representante .image img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.feedback .representante{
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.feedback .representante .name{
+    margin-left: 20px;
+}   
+
+.feedback .representante .name h3{
+    font-weight: 600;
+}
+
+.feedback .representante .name p{
+    color: #999;
+}
