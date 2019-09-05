@@ -4,6 +4,7 @@
 /* Components */
 @import 'components/tour.css';
 @import 'components/hero.css';
+@import 'components/footer.css';
 
 /* Views */
 @import 'home.css';
