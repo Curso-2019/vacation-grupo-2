@@ -3,6 +3,7 @@
 
 /* Components */
 @import 'components/tour.css';
+@import 'components/hero.css';
 
 /* Views */
 @import 'home.css';
