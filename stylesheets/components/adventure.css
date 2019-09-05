@@ -1,0 +1,26 @@
+.adventure{
+    font-family: 'Poppins', sans-serif;
+    height: 700px;
+    background: #f9fafb;
+    padding: 50px;
+}
+
+.adventure-section{
+    display: flex;
+}
+
+.adventure-col{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.adventure .content .icon{
+    color: #f9ab31;
+    font-size: 40px;
+}
+
+.adventure .content{
+    padding: 20px;
+    width: 50%;
+}
