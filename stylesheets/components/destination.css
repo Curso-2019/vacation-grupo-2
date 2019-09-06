@@ -57,14 +57,18 @@
 	font-weight: 400;
 	padding-top: 15px;
 	
-	
-	
 }
 .destination .destination-info h2{
 	font-size: 24px;
 	font-weight: 400;
-	padding-left: 10px;
+	padding-left: 10px;	
 	padding-top: 15px;
+
+}
+
+.destination .destination-info .gray{
+	color: #AFAFAF;
+	margin-left: 15px;
 
 }
 
@@ -72,22 +76,17 @@
 	padding-left: 5px;
 	display: inline-block;
 	color: #000;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 	padding-top: 15px;
 
 }
 
-.destination i{
-	color: #F9AB30;
-
-
-}
-
-.destination ion-icon{
-	font-size: 26px;
-	vertical-align: bottom;
+.destination .icon i {
+	font-size: 16px;
+	vertical-align: center;
 	padding-left: 5px;
-	margin-right: 6px;
+	margin-right: 10px;
+	color: #F9AB30;
 
 }
