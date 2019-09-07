@@ -5,35 +5,35 @@ footer{
 	background-size: cover;
 }
 
-.footer-flex{
+footer .footer-flex{
 	display: flex;
 }
 
-.info-col{
+footer .info-col{
 	width: 25%;
 	padding: 10px;
 	margin-top: 50px;
 }
 
 
-.info-col h2{
+footer .info-col h2{
 	color: white;
 	margin-bottom: 18px;
 	font-weight: 400;
 	font-size: 20px;
 }
 
-.info-col p{
+footer .info-col p{
 	color: rgba(255,255,255,.7);
 	font-weight: 300;
 }
 
-.info-col .info-icon{
+footer .info-col .info-icon{
 	text-decoration: none;
 }
 
 
-.info-col .info-icon ion-icon{
+footer .info-col .info-icon ion-icon{
 	background-color: rgba(255,255,255,.05);
 	color: white;
 	border: 1px solid rgba(255,255,255,.05);
@@ -44,48 +44,48 @@ footer{
 	margin-top: 80px;
 }
 
-.info-col ul{
+footer .info-col ul{
 	margin-bottom: 20px;
 }
 
-.info-col ul a{
+footer .info-col ul a{
 	text-decoration: none;
 	color: rgba(255,255,255,.7);
 	font-weight: 300;
 	cursor: pointer;
 }
 
-.info-col ul a:hover{
+footer .info-col ul a:hover{
 	color: white;
 }
 
 
-.info-col .date .line{
+footer .info-col .date .line{
 	display: flex;
 	margin-bottom: 20px;
 	color: white;
 }
 
 
-.info-col .date .line .line-icon{
+footer .info-col .date .line .line-icon{
 	margin-right: 20px;
 }
 
-.info-col .date .line .line-icon ion-icon{
+footer .info-col .date .line .line-icon ion-icon{
 	font-size: 18px;
 }
 
-.info-col .date .line{
+footer .info-col .date .line{
 	text-decoration: none;
 }
 
 
-.info-col .date .line .line-text-1{
+footer .info-col .date .line .line-text-1{
 	color: rgba(255,255,255,.7);
 }
 
 
-.pie-de-fondo{
+footer .pie-de-fondo{
 	color: rgba(255,255,255,.7);
 	text-align: center;
 	margin-top: 80px;
