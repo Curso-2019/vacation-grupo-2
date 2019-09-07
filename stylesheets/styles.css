@@ -14,6 +14,9 @@
 @import 'components/adventure.css';
 @import 'components/search-bar.css';
 @import 'components/menu-blog.css';
+@import 'components/destination.css';
+@import 'components/form.css';
+
 /* Views */
 @import 'home.css';
 @import 'about.css';

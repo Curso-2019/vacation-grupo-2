@@ -1,0 +1,32 @@
+.form{
+	width: 100%;
+	background: #F9FAFB;
+	padding: 20px;
+}
+
+.form input, .form textarea{
+	width:100%;
+	display: block;
+	margin: 20px 10px;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #999;
+
+}
+
+.form .btn{
+	padding: 15px 30px;
+	display: block;
+	border-radius: 50px;
+	margin-left: 10px;
+	background: #F9AB30;
+	border: none;
+	color: #fff;
+}
+
+
+.form input:focus, .form textarea:focus{
+	outline:none;
+	border: 1px solid #000;
+}
