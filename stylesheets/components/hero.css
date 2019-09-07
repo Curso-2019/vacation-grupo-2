@@ -1,0 +1,86 @@
+.hero{
+	background-image: url('../../images/bg_1.jpg');
+	background-size:cover;
+	height:100vh;
+	background-position:50% 0%;
+	
+}
+
+.hero{
+	color:white;
+	background-position:center;
+	font-family:Poppins;
+}
+
+.hero .mask{
+	height: 100%;
+	background-color: rgba(255, 192, 203, 0.2);
+}
+.hero .logo{
+	background:#33313b;
+	border-radius:3px;
+	padding:25px;
+	line-height:1;
+	
+}
+
+.logo .big{
+	font-size:25px;
+	font-weight:800;
+}
+
+.logo .small{
+	font-size:14px;
+	text-align:center;
+	font-weight:450;
+}
+
+.hero header{
+	display:flex;
+	justify-content:space-between;
+	align-items: flex-start;
+}
+
+.hero header ul{
+	list-style:none;
+	color:white;
+	display:flex;
+	margin-top:10px;
+	z-index:900;
+}
+
+header li{
+	padding:20px;
+	color: white;
+	text-shadow: #000000;
+}
+
+.hero .bottom{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	text-align:center;
+	padding-bottom:50px;
+}
+
+.bottom h3{
+	font-weight:400;
+	font-size:15px;
+}
+
+.bottom h1{
+	font-weight:800;
+	font-size:50px;
+
+}
+
+.hero ul li.book{
+	background:#f9ab30;
+	border-radius:2px;
+	
+}
+
+.hero ul li.about-link{
+	color:#f9ab30;
+}
