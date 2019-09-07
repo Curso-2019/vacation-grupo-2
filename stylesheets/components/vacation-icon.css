@@ -1,0 +1,41 @@
+.vacation-icon .box{
+	height:100px;
+	width:100px;
+	background:#33313b;
+	border-radius:75px;
+	margin: 0 auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.vacation-icon h3{
+	text-align:center;
+	padding-top:30px;
+	font-weight:300;
+}
+
+.vacation-icon p{
+	text-align:center;
+	padding-top:10px;
+	font-size:15px;
+	color:grey;
+}
+
+.vacation-icon .box .icon{
+	font-size:40px;
+	color:white;
+}
+
+.vacation-icon{
+	font-family:Poppins;
+}
+
+ .vacation-icon a{
+	text-align:center;
+	padding-top:10px;
+	font-size:15px;
+	justify-content:center;
+	display:flex;
+	text-decoration:none;
+	color:black;
+}
