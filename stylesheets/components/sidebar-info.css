@@ -1,0 +1,14 @@
+.sidebar-info{
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+}
+
+.sidebar-info h3{
+    color: rgba(0,0,0,.8);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.sidebar-info p{
+    color: #999; 
+}
