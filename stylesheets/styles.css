@@ -8,6 +8,8 @@
 @import 'components/footer.css';
 @import 'components/tangs.css';
 @import 'components/sidebar-info.css';
+@import 'components/feedback.css';
+
 
 /* Views */
 @import 'home.css';
