@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 @import 'base.css';
+@import 'picker.css';
 
 /* Components */
 @import 'components/tour.css';
@@ -11,8 +12,7 @@
 @import 'components/feedback.css';
 @import 'components/recent-post.css';
 @import 'components/adventure.css';
-
-
+@import 'components/search-bar.css';
 /* Views */
 @import 'home.css';
 @import 'about.css';

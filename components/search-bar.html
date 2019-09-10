@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Search-Bar</title>
+	<link rel="stylesheet" href="../stylesheets/styles.css">
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="../js/picker.js"></script>
+	<script src="../js/picker.es.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="search-bar">
+			<div class="search-col">
+				<h3>Destination</h3>
+				<div class="search-col-flex">
+					<ion-icon name="ios-search"></ion-icon>
+					<input class="input-search" type="text" placeholder="Search Place">
+				</div>
+			</div> <!----SEARCH-COL----->
+			<div class="search-col">
+				<h3>Check-in date</h3>
+				<div class="search-col-flex">
+					<ion-icon name="ios-calendar"></ion-icon>
+					<input class="input-search datepicker-here" type="text" placeholder="Check In Date" data-language="es">
+				</div>
+			</div> <!----SEARCH-COL----->
+			<div class="search-col">
+				<h3>Check-out date</h3>
+				<div class="search-col-flex">
+					<ion-icon name="ios-calendar"></ion-icon>
+					<input class="input-search datepicker-here" type="text" placeholder="Check Out Date" data-language="es">
+				</div>
+			</div> <!----SEARCH-COL----->
+			<div class="search-col">
+				<h3>Price Limit</h3>
+				<div class="search-col-flex">
+					<ion-icon name="ios-arrow-down"></ion-icon>
+					<select class="input-search" name="select">
+  						<option value="value1">$5,000</option> 
+					</select>
+				</div>
+			</div> <!----SEARCH-COL----->
+			<div class="search-col">
+				<button>Search</button>
+			</div>
+		</div> <!----SEARCH-BAR----->
+	</div>  <!----CONTAINER----->
+</body>
+</html>
