@@ -6,6 +6,7 @@
 @import 'components/maps.css';
 @import 'components/hero.css';
 @import 'components/footer.css';
+@import 'components/tangs.css';
 
 /* Views */
 @import 'home.css';
