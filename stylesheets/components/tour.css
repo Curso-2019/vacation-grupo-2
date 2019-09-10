@@ -1,4 +1,39 @@
 .tour{
 	border-radius: 3px;
-	border: 1px solid black;
+	background: url('../../images/place-2.jpg');
+	height: 350px;
+	background-size: cover;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
 }
+
+.tour a{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+}
+
+.tour a h2{
+	padding-left: 20px;
+	padding-top: 16px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.tour a .info{
+	display: inline-block;
+	background: #33313b;
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	color: #fff;
+	border-radius: 50px 0 0 50px;
+	padding: 6px 10px 6px 20px;
+	transition: 0.5s;
+}
+
+.tour:hover a .info{
+	padding-right: 20px;
+	background: #f9ab30;
+}
+
