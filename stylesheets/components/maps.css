@@ -1,0 +1,8 @@
+.maps{
+    height: 500px;
+}
+.maps iframe{
+    width: 100%;
+    height: 100%;
+}
+

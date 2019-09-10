@@ -3,7 +3,7 @@
 
 /* Components */
 @import 'components/tour.css';
-
+@import 'components/maps.css';
 /* Views */
 @import 'home.css';
 @import 'about.css';
