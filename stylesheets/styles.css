@@ -13,6 +13,7 @@
 @import 'components/recent-post.css';
 @import 'components/adventure.css';
 @import 'components/search-bar.css';
+@import 'components/menu-blog.css';
 /* Views */
 @import 'home.css';
 @import 'about.css';
