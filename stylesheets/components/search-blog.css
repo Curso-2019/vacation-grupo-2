@@ -1,0 +1,22 @@
+.search-blog .search-col{
+	background-color: #f2f2f2;
+	padding: 10px;
+	color: #999;
+	margin-top: 20px;
+}
+
+.search-blog .search-col .input-search{
+	position: relative;
+	padding: 20px;
+	width: 100%;
+	color: #999;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.search-blog .search-col ion-icon{
+	position: absolute;
+	top: 50px;
+    right: 400px;
+    font-size: 20px;
+}
