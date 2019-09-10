@@ -16,7 +16,7 @@
 @import 'components/menu-blog.css';
 @import 'components/destination.css';
 @import 'components/form.css';
-
+@import 'components/blog-content.css';
 /* Views */
 @import 'home.css';
 @import 'about.css';
