@@ -1,0 +1,29 @@
+.author{
+	font-family:Poppins;
+	display:flex;
+	background:#F9FAFB;
+	padding:30px;
+}
+
+.author .img{
+	width:150px;
+	flex-shrink:0;
+}
+
+.author .img img{
+	width:100%;
+}
+
+.author p{
+	color:grey;
+}
+
+.author .content{
+	padding:10px 50px 20px 55px;
+	flex-grow:1;
+}
+
+.author h2{
+	font-weight:300;
+	padding-bottom:10px;
+}
