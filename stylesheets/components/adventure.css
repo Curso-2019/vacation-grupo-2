@@ -1,0 +1,58 @@
+.adventure{
+    font-family: 'Poppins', sans-serif;
+    background: #f9fafb;
+    padding: 50px;
+}
+
+.adventure-section{
+    display: flex;
+}
+
+.adventure-col{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 30px;
+}
+
+.adventure .content .icon{
+    color: #f9ab31;
+    font-size: 44px;
+}
+
+.adventure .content{
+    padding: 20px;
+    width: 50%;
+}
+
+.adventure .content .adventure-info h3{
+    color: rgba(0,0,0,.8);
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.adventure .content .adventure-info p{
+    line-height: 2;
+    color: #999;
+}
+
+.adventure .adventure-col .buttom a{
+    text-decoration: none;
+    color: #fff;
+    background: #f9ab31;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.adventure .adventure-col .adventure-info2 h2{
+    color: rgba(0,0,0,.8);
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.adventure .adventure-col .adventure-info2 p{
+    color: #999;
+    margin-top: 20px;
+    line-height: 2;
+}

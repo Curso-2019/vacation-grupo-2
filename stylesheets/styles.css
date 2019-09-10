@@ -10,6 +10,8 @@
 @import 'components/sidebar-info.css';
 @import 'components/feedback.css';
 @import 'components/recent-post.css';
+@import 'components/adventure.css';
+
 
 /* Views */
 @import 'home.css';
