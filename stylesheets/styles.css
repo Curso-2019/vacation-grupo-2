@@ -9,7 +9,7 @@
 @import 'components/tangs.css';
 @import 'components/sidebar-info.css';
 @import 'components/feedback.css';
-
+@import 'components/recent-post.css';
 
 /* Views */
 @import 'home.css';
