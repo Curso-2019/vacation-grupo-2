@@ -42,6 +42,24 @@ footer .info-col .info-icon ion-icon{
 	padding: 10px;
 	margin-left: 10px;
 	margin-top: 80px;
+	transition: all 0.5s;
+}
+
+footer .info-col .info-icon ion-icon:hover{
+	background-color: white;
+	color: black;
+	border-color: black;
+	transform: translateY(-5px);
+}
+
+footer .info-col .info-icon ion-icon:hover:nth-child(1){
+	transform:  translateY(-5px) rotate(25deg);
+
+}
+
+footer .info-col .info-icon ion-icon:hover:nth-child(3){
+	transform:  translateY(-5px) rotate(-25deg);
+
 }
 
 footer .info-col ul{
