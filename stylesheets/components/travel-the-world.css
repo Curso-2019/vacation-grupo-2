@@ -1,40 +1,40 @@
-.travelTheWorld{
+.travel-the-world{
 	display: flex;
 	font-family: 'Poppins', sans-serif;
 	margin-top: 20px;
 }
 
-.travelTheWorld .travel-photo{
+.travel-the-world .travel-photo{
 	background: url('../../images/about.jpg');
 	background-size: cover;
 	width: 100%;
 	height: 500px;
 }
 
-.travelTheWorld .travel-info{
+.travel-the-world .travel-info{
 	width: 100%;
 	margin: 3% 5%;
 }
-.travelTheWorld .travel-info h2{
+.travel-the-world .travel-info h2{
 	font-size: 40px;
 	font-weight: 600;
 	padding-bottom: 30px;
 }
 
-.travelTheWorld p{
+.travel-the-world p{
 	font-size: 16px;
 	color: #999;
 	padding-bottom: 30px;
 
 }
 
-.travelTheWorld .travel-info2{
+.travel-the-world .travel-info2{
 	display: flex;
 	justify-content: space-between;
 
 }
 
-.travelTheWorld .one h3{
+.travel-the-world .one h3{
 	text-align: center;
 	font-weight: 600;
 	font-size: 28px;
