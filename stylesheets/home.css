@@ -1,0 +1,20 @@
+.home .flex-4{
+    display: flex;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.home .flex-4 .tour-col{
+    width: 25%;
+    padding: 20px;
+}
+
+.home .flex-6{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .flex-6 .col{
+    width: 33.33%;
+
+}
