@@ -39,7 +39,6 @@
 	display:flex;
 	justify-content:space-between;
 	align-items: flex-start;
-	margin: 0 10%;
 }
 
 .hero header ul{
@@ -95,7 +94,7 @@ header li{
 
 /*COMIENZA EL MEDIA PARA TABLETA*/
 
-@media (max-width: 796px){
+@media (max-width: 800px){
 
 	.hero .logo{
 		padding: 16px;
@@ -107,6 +106,7 @@ header li{
 		padding: 0 10%;
 		padding-bottom: 0;
 		position: relative;
+
 	}
 
 	.hero nav{
