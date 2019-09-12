@@ -70,9 +70,18 @@
 	}
 
 	.destinatio-view .row-four .col{
-		width: 100%
+		width: 50%
 	}
 }
 
+@media (max-width: 640px){
 
+	.destinatio-view .row-four{
+		flex-wrap: wrap;
 
+	}
+
+	.destinatio-view .row-four .col{
+		width: 100%
+	}
+}
