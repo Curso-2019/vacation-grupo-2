@@ -96,7 +96,7 @@ header li{
 
 @media (min-width: 800px){
 	.hero nav{
-		display: block;
+		display: block !important;
 	}
 }
 
