@@ -26,7 +26,7 @@
 @import 'components/travel-the-world.css';
 @import 'components/comment.css';
 @import 'components/title.css';
-
+@import 'components/next-pag.css';
 /* Views */
 @import 'home.css';
 @import 'about.css';
