@@ -94,6 +94,12 @@ header li{
 
 /*COMIENZA EL MEDIA PARA TABLETA*/
 
+@media (min-width: 800px){
+	.hero nav{
+		display: block;
+	}
+}
+
 @media (max-width: 800px){
 
 	.hero .logo{
