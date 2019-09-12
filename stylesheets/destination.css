@@ -49,13 +49,13 @@
 .destinatio-view .namber .col a{
 	text-decoration: none;
 	color: #000;
-    text-align: center;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    border: 1px solid #e6e6e6;
+	text-align: center;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	border: 1px solid #e6e6e6;
 
 }
 
