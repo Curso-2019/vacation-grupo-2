@@ -88,8 +88,8 @@ header li{
 	display: none;
 }
 
-.hero ul li.about-link{
-	color:#f9ab30;
+.hero .about-link a{
+	color:#f9ab30 !important;
 }
 
 /*para dejar estatio el menu*/
@@ -97,12 +97,13 @@ header li{
 .hero .menu-fixed{
 	position: fixed;
 	top: 0;
+	left: 0;
 	right: 0;
-	z-index: 100;
+	padding:0 60px;
+	z-index: 1000;
 	background: #fff;
 	box-shadow: 0 3px 5px rgba(0, 0, 0, .9);
-	width: 100%;
-	padding: 0 120px;
+
 }
 
 .hero .menu-fixed a{
@@ -110,7 +111,10 @@ header li{
 
 }
 
-.hero .menu-fixed 
+.hero .menu-fixed .logo{
+	padding: 20px;
+
+}
 
 /*COMIENZA EL MEDIA PARA TABLETA*/
 
