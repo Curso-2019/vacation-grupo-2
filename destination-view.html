@@ -5,6 +5,9 @@
 	<title>Destinatio View</title>
 	<link rel="stylesheet" href="stylesheets/styles.css">
 	<script src="https://kit.fontawesome.com/707e45c747.js"></script>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/fixed.js"></script>
 </head>
 <body>
 	<div class="destinatio-view">
@@ -15,7 +18,7 @@
 
 				<div class="container">
 
-					<header>
+					<header class="menu">
 						<div class="logo">
 							<div class="big">Vacation</div>
 							<div class="small">TRAVEL AGENCY</div>
@@ -72,582 +75,569 @@
 				<div class="row-four">	
 
 					<div class="col">
-						<div class="tour" 
-						style="background-image: url('images/place-1.jpg')">
-						<a href="#">
-							<h2>Canada</h2>
-							<div class="info">8 Tour</div>
-						</a>
-					</div><!--tour-->
-				</div><!--col-->
+						<div class="tour" style="background-image: url('images/place-1.jpg')">
+							<a href="#">
+								<h2>Canada</h2>
+								<div class="info">8 Tour</div>
+							</a>
+						</div><!--tour-->
+					</div><!--col-->
 
-				<div class="col">
-					<div class="tour">
-						<a href="#">
-							<h2>Canada</h2>
-							<div class="info">2 Tour</div>
-						</a>
-					</div><!--tour-->
-				</div><!--col-->
+					<div class="col">
+						<div class="tour">
+							<a href="#">
+								<h2>Canada</h2>
+								<div class="info">2 Tour</div>
+							</a>
+						</div><!--tour-->
+					</div><!--col-->
 
-				<div class="col">
-					<div class="tour" 
-					style="background-image: url('images/place-3.jpg')">
-					<a href="#">
-						<h2>Canada</h2>
-						<div class="info">5 Tour</div>
-					</a>
-				</div><!--tour-->
-			</div><!--col-->
+					<div class="col">
+						<div class="tour" style="background-image: url('images/place-3.jpg')">
+							<a href="#">
+								<h2>Canada</h2>
+								<div class="info">5 Tour</div>
+							</a>
+						</div><!--tour-->
+					</div><!--col-->
 
-			<div class="col">
-				<div class="tour" 
-				style="background-image: url('images/place-4.jpg')">
-				<a href="#">
-					<h2>Canada</h2>
-					<div class="info">5 Tour</div>
-				</a>
-			</div><!--tour-->
-		</div><!--col-->
+					<div class="col">
+						<div class="tour" style="background-image: url('images/place-4.jpg')">
+							<a href="#">
+								<h2>Canada</h2>
+								<div class="info">5 Tour</div>
+							</a>
+						</div><!--tour-->
+					</div><!--col-->
 
-	</div><!--flex-four-->
+				</div><!--flex-four-->
 
-</div><!--row-->
-</section><!--container-->
+			</div><!--row-->
+		</section><!--container-->
 
-<!--TERMINA EL COMPONENTE TOUR-->
+		<!--TERMINA EL COMPONENTE TOUR-->
 
-<!--COMIENZA EL COPONENTE SEARCH-BAR-->
-<section class="container">
+		<!--COMIENZA EL COPONENTE SEARCH-BAR-->
+		<section class="container">
 
-	<div class="row">
-		<div class="search-bar">
-			<div class="search-col">
-				<h3>Destination</h3>
-				<div class="search-col-flex">
-					<ion-icon name="ios-search"></ion-icon>
-					<input class="input-search" type="text" placeholder="Search Place">
-				</div>
-			</div> <!--SEARCH-COL-->
-			<div class="search-col">
-				<h3>Check-in date</h3>
-				<div class="search-col-flex">
-					<ion-icon name="ios-calendar"></ion-icon>
-					<input class="input-search datepicker-here" type="text" placeholder="Check In Date" data-language="es">
-				</div>
-			</div> <!--SEARCH-COL-->
-			<div class="search-col">
-				<h3>Check-out date</h3>
-				<div class="search-col-flex">
-					<ion-icon name="ios-calendar"></ion-icon>
-					<input class="input-search datepicker-here" type="text" placeholder="Check Out Date" data-language="es">
-				</div>
-			</div><!--search-col-->
-			<div class="search-col">
-				<h3>Price Limit</h3>
-				<div class="search-col-flex">
-					<ion-icon name="ios-arrow-down"></ion-icon>
-					<select class="input-search" name="select">
-						<option value="value1">$5,000</option> 
-					</select>
-				</div>
-			</div><!--search-col-->
-			<div class="search-col">
-				<button>Search</button>
-			</div>
-		</div><!--search-col-->
-
-	</div><!--row-->
-
-</section><!--container-->
-<!--TERMINA EL COPONENTE SEARCH-BAR-->
-
-<!--COMIENZA EL COPONENTE DESTITATION-->
-
-<section class="container">
-
-	<div class="row">
-
-		<div class="section-title">
-			<h2>Tour Destination</h2>
-		</div>
-
-		<div class="row-12 row-four">	
-
-			<div class="col">
-				<div class="destination">
-					<div class="photo">
-
-						<div class="destination-btn">
-							<a href="#">$300/person</a>
+			<div class="row">
+				<div class="search-bar">
+					<div class="search-col">
+						<h3>Destination</h3>
+						<div class="search-col-flex">
+							<ion-icon name="ios-search"></ion-icon>
+							<input class="input-search" type="text" placeholder="Search Place">
 						</div>
-
-					</div><!--photo-->
-
-
-					<div class="destination-info">
-						<p>8 Days tour</p>
-						<h2>Bali, Indonesia</h2>
-						<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-						<div class="icon">
-							<p><i class="fas fa-bath"></i>2</p>
-							<p><i class="fas fa-bed"></i>3</p>
-							<p><i class="fas fa-mountain"></i>Near Mountain</p>
-
-						</div><!--icon-->
-
-					</div><!--destination-info-->
-
-				</div><!--destination-->
-
-			</div><!--col-->
-
-			<div class="col">
-
-				<div class="destination">
-
-					<div class="photo" style="background-image: url(images/destination-2.jpg)">
-						<div class="destination-btn">
-							<a href="#">$300/person</a>
+					</div> <!--SEARCH-COL-->
+					<div class="search-col">
+						<h3>Check-in date</h3>
+						<div class="search-col-flex">
+							<ion-icon name="ios-calendar"></ion-icon>
+							<input class="input-search datepicker-here" type="text" placeholder="Check In Date" data-language="es">
 						</div>
+					</div> <!--SEARCH-COL-->
+					<div class="search-col">
+						<h3>Check-out date</h3>
+						<div class="search-col-flex">
+							<ion-icon name="ios-calendar"></ion-icon>
+							<input class="input-search datepicker-here" type="text" placeholder="Check Out Date" data-language="es">
+						</div>
+					</div><!--search-col-->
+					<div class="search-col">
+						<h3>Price Limit</h3>
+						<div class="search-col-flex">
+							<ion-icon name="ios-arrow-down"></ion-icon>
+							<select class="input-search" name="select">
+								<option value="value1">$5,000</option> 
+							</select>
+						</div>
+					</div><!--search-col-->
+					<div class="search-col">
+						<button>Search</button>
 					</div>
+				</div><!--search-col-->
 
-					<div class="destination-info">
-						<p>8 Days tour</p>
-						<h2>Bali, Indonesia</h2>
-						<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+			</div><!--row-->
 
-						<div class="icon">
-							<p><i class="fas fa-bath"></i>2</p>
-							<p><i class="fas fa-bed"></i>3</p>
-							<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+		</section><!--container-->
+		<!--TERMINA EL COPONENTE SEARCH-BAR-->
 
-						</div><!--icon-->
+		<!--COMIENZA EL COPONENTE DESTITATION-->
 
-					</div><!--destination-info-->
+		<section class="container">
 
-				</div><!--destination-->
+			<div class="row">
 
-			</div><!--col-->
-
-			<div class="col">
-
-				<div class="destination">
-
-					<div class="photo" 
-					style="background-image: url('images/destination-3.jpg')">
-					<div class="destination-btn">
-						<a href="#">$300/person</a>
-					</div>
+				<div class="section-title">
+					<h2>Tour Destination</h2>
 				</div>
 
-				<div class="destination-info">
-					<p>8 Days tour</p>
-					<h2>Bali, Indonesia</h2>
-					<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+				<div class="row-12 row-four">	
 
-					<div class="icon">
-						<p><i class="fas fa-bath"></i>2</p>
-						<p><i class="fas fa-bed"></i>3</p>
-						<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+					<div class="col">
+						<div class="destination">
+							<div class="photo">
 
-					</div><!--icon-->
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
 
-				</div><!--destination-info-->
+							</div><!--photo-->
 
-			</div><!--destination-->
 
-		</div><!--col-->
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
 
-		<div class="col">
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-mountain"></i>Near Mountain</p>
 
-			<div class="destination">
+								</div><!--icon-->
 
-				<div class="photo" 
-				style="background-image: url('images/destination-4.jpg')">
-				<div class="destination-btn">
-					<a href="#">$300/person</a>
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url(images/destination-2.jpg)">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-3.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-4.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-5.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-6.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-7.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-8.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-9.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-10.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-11.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+					<div class="col">
+
+						<div class="destination">
+
+							<div class="photo" style="background-image: url('images/destination-12.jpg')">
+								<div class="destination-btn">
+									<a href="#">$300/person</a>
+								</div>
+							</div>
+
+
+							<div class="destination-info">
+								<p>8 Days tour</p>
+								<h2>Bali, Indonesia</h2>
+								<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
+
+								<div class="icon">
+									<p><i class="fas fa-bath"></i>2</p>
+									<p><i class="fas fa-bed"></i>3</p>
+									<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
+
+								</div><!--icon-->
+
+							</div><!--destination-info-->
+
+						</div><!--destination-->
+
+					</div><!--col-->
+
+				</div><!--row-12-->
+
+			</div><!--row-->
+			<div class="namber">
+				<div class="col">
+					<a href="#"><i class="fas fa-angle-left"></i></a>
 				</div>
-			</div>
-
-			<div class="destination-info">
-				<p>8 Days tour</p>
-				<h2>Bali, Indonesia</h2>
-				<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-				<div class="icon">
-					<p><i class="fas fa-bath"></i>2</p>
-					<p><i class="fas fa-bed"></i>3</p>
-					<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
-
-				</div><!--icon-->
-
-			</div><!--destination-info-->
-
-		</div><!--destination-->
-
-	</div><!--col-->
-
-	<div class="col">
-
-		<div class="destination">
-
-			<div class="photo" 
-			style="background-image: url('images/destination-5.jpg')">
-			<div class="destination-btn">
-				<a href="#">$300/person</a>
-			</div>
-		</div>
-
-
-		<div class="destination-info">
-			<p>8 Days tour</p>
-			<h2>Bali, Indonesia</h2>
-			<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-			<div class="icon">
-				<p><i class="fas fa-bath"></i>2</p>
-				<p><i class="fas fa-bed"></i>3</p>
-				<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
-
-			</div><!--icon-->
-
-		</div><!--destination-info-->
-
-	</div><!--destination-->
-
-</div><!--col-->
-
-<div class="col">
-
-	<div class="destination">
-
-		<div class="photo" 
-		style="background-image: url('images/destination-6.jpg')">
-		<div class="destination-btn">
-			<a href="#">$300/person</a>
-		</div>
-	</div>
-
-
-	<div class="destination-info">
-		<p>8 Days tour</p>
-		<h2>Bali, Indonesia</h2>
-		<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-		<div class="icon">
-			<p><i class="fas fa-bath"></i>2</p>
-			<p><i class="fas fa-bed"></i>3</p>
-			<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
-
-		</div><!--icon-->
-
-	</div><!--destination-info-->
-
-</div><!--destination-->
-
-</div><!--col-->
-
-<div class="col">
-
-	<div class="destination">
-
-		<div class="photo" 
-		style="background-image: url('images/destination-7.jpg')">
-		<div class="destination-btn">
-			<a href="#">$300/person</a>
-		</div>
-	</div>
-
-
-	<div class="destination-info">
-		<p>8 Days tour</p>
-		<h2>Bali, Indonesia</h2>
-		<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-		<div class="icon">
-			<p><i class="fas fa-bath"></i>2</p>
-			<p><i class="fas fa-bed"></i>3</p>
-			<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
-
-		</div><!--icon-->
-
-	</div><!--destination-info-->
-
-</div><!--destination-->
-
-</div><!--col-->
-
-<div class="col">
-
-	<div class="destination">
-
-		<div class="photo" 
-		style="background-image: url('images/destination-8.jpg')">
-		<div class="destination-btn">
-			<a href="#">$300/person</a>
-		</div>
-	</div>
-
-
-	<div class="destination-info">
-		<p>8 Days tour</p>
-		<h2>Bali, Indonesia</h2>
-		<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-		<div class="icon">
-			<p><i class="fas fa-bath"></i>2</p>
-			<p><i class="fas fa-bed"></i>3</p>
-			<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
-
-		</div><!--icon-->
-
-	</div><!--destination-info-->
-
-</div><!--destination-->
-
-</div><!--col-->
-
-<div class="col">
-
-	<div class="destination">
-
-		<div class="photo" 
-		style="background-image: url('images/destination-9.jpg')">
-		<div class="destination-btn">
-			<a href="#">$300/person</a>
-		</div>
-	</div>
-
-
-	<div class="destination-info">
-		<p>8 Days tour</p>
-		<h2>Bali, Indonesia</h2>
-		<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-		<div class="icon">
-			<p><i class="fas fa-bath"></i>2</p>
-			<p><i class="fas fa-bed"></i>3</p>
-			<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
-
-		</div><!--icon-->
-
-	</div><!--destination-info-->
-
-</div><!--destination-->
-
-</div><!--col-->
-
-<div class="col">
-
-	<div class="destination">
-
-		<div class="photo" 
-		style="background-image: url('images/destination-10.jpg')">
-		<div class="destination-btn">
-			<a href="#">$300/person</a>
-		</div>
-	</div>
-
-
-	<div class="destination-info">
-		<p>8 Days tour</p>
-		<h2>Bali, Indonesia</h2>
-		<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-		<div class="icon">
-			<p><i class="fas fa-bath"></i>2</p>
-			<p><i class="fas fa-bed"></i>3</p>
-			<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
-
-		</div><!--icon-->
-
-	</div><!--destination-info-->
-
-</div><!--destination-->
-
-</div><!--col-->
-
-<div class="col">
-
-	<div class="destination">
-
-		<div class="photo" 
-		style="background-image: url('images/destination-11.jpg')">
-		<div class="destination-btn">
-			<a href="#">$300/person</a>
-		</div>
-	</div>
-
-
-	<div class="destination-info">
-		<p>8 Days tour</p>
-		<h2>Bali, Indonesia</h2>
-		<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-		<div class="icon">
-			<p><i class="fas fa-bath"></i>2</p>
-			<p><i class="fas fa-bed"></i>3</p>
-			<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
-
-		</div><!--icon-->
-
-	</div><!--destination-info-->
-
-</div><!--destination-->
-
-</div><!--col-->
-
-<div class="col">
-
-	<div class="destination">
-
-		<div class="photo" 
-		style="background-image: url('images/destination-12.jpg')">
-		<div class="destination-btn">
-			<a href="#">$300/person</a>
-		</div>
-	</div>
-
-
-	<div class="destination-info">
-		<p>8 Days tour</p>
-		<h2>Bali, Indonesia</h2>
-		<h4><i class="gray fas fa-map-marked-alt"></i>Bali, Indonesia</h4>
-
-		<div class="icon">
-			<p><i class="fas fa-bath"></i>2</p>
-			<p><i class="fas fa-bed"></i>3</p>
-			<p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
-
-		</div><!--icon-->
-
-	</div><!--destination-info-->
-
-</div><!--destination-->
-
-</div><!--col-->
-
-</div><!--row-12-->
-
-</div><!--row-->
-<div class="namber">
-	<div class="col">
-		<a href="#"><i class="fas fa-angle-left"></i></a>
-	</div>
-	<div class="col active">
-		<a href="#">1</a>
-	</div>
-	<div class="col">
-		<a href="#">2</a>
-	</div>
-	<div class="col">
-		<a href="#">3</a>
-	</div>
-	<div class="col">
-		<a href="#">4</a>
-	</div>
-	<div class="col">
-		<a href="#">5</a>
-	</div>
-	<div class="col">
-		<a href="#"><i class="fas fa-angle-right"></i></a>
-	</div>
-
-</div><!--namber-->
-
-</section><!--container-->
-
-<footer>
-		<div class="container">
-			<div class="footer-flex">
-				<div class="info-col">
-					<h2>Vacation</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-					<a class="info-icon" href="#">
-						<ion-icon name="logo-twitter"></ion-icon>
-						<ion-icon name="logo-facebook"></ion-icon>
-						<ion-icon name="logo-instagram"></ion-icon>
-					</a>   <!---INFO-ICON---->
-				</div>  <!---INFO-COL---->
-				<div class="info-col">
-					<h2>Information</h2>
-					<ul>
-						<a href="#">Online Enquiry</a>
-					</ul>
-					<ul>
-						<a href="#">General Enquiries</a>
-					</ul>
-					<ul>
-						<a href="#">Booking Conditions</a>
-					</ul>
-					<ul>
-						<a href="#">Privacy and Policy</a>
-					</ul>
-					<ul>
-						<a href="#">Refund Policy</a>
-					</ul>
-					<ul>
-						<a href="#">Call Us</a>
-					</ul>
-				</div>  <!---INFO-COL---->
-				<div class="info-col">
-					<h2>Experience</h2>
-					<ul>
-						<a href="#">Adventure</a>
-					</ul>
-					<ul>
-						<a href="#">Hotel and Restaurant</a>
-					</ul>
-					<ul>
-						<a href="#">Comping</a>
-					</ul>
-					<ul>
-						<a href="#">Beach</a>
-					</ul>
-					<ul>
-						<a href="#">Nature</a>
-					</ul>
-					<ul>
-						<a href="#">Party</a>
-					</ul>
-				</div>  <!---INFO-COL---->
-				<div class="info-col">
-					<h2>Vacation</h2>
-					<div class="date">
-						<div class="line">
-							<div class="line-icon">
-						 		<ion-icon name="pin"></ion-icon>
-							</div>
-							<div class="line-text-1">
-						 		203 Fake St. Mountain View, San Francisco, California, USA
-							</div>
-						</div> <!----LINE---->
-						<a class="line" href="#">
-							<div class="line-icon">
-						 		<ion-icon name="call"></ion-icon>
-							</div>
-							<div class="line-text">
-						 		+2 392 3929 210
-							</div>
-						</a> <!----LINE---->
-						<a class="line" href="#">
-							<div class="line-icon">
-						 		<ion-icon name="mail-unread"></ion-icon>
-							</div>
-							<div class="line-text">
-						 		info@yourdomain.com
-							</div>
-						</a> <!----LINE---->
-					</div>
-				</div>  <!---INFO-COL---->
-			</div>  <!---FOOTER_FLEX---->
-			<div class="pie-de-fondo">Copyright ©2019 All rights reserved | This template is made with<ion-icon name="heart"></ion-icon>by Colorlib</div>
-		</div>  <!---CONTAINER---->
-	</footer>
-
-</div><!--destination-view-->
+				<div class="col">
+					<a class="active" href="#">1</a>
+				</div>
+				<div class="col">
+					<a href="#">2</a>
+				</div>
+				<div class="col">
+					<a href="#">3</a>
+				</div>
+				<div class="col">
+					<a href="#">4</a>
+				</div>
+				<div class="col">
+					<a href="#">5</a>
+				</div>
+				<div class="col">
+					<a href="#"><i class="fas fa-angle-right"></i></a>
+				</div>
+
+			</div><!--namber-->
+
+		</section><!--container-->
+
+		<footer>
+			<div class="container">
+				<div class="footer-flex">
+					<div class="info-col">
+						<h2>Vacation</h2>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<a class="info-icon" href="#">
+							<ion-icon name="logo-twitter"></ion-icon>
+							<ion-icon name="logo-facebook"></ion-icon>
+							<ion-icon name="logo-instagram"></ion-icon>
+						</a>   <!---INFO-ICON---->
+					</div>  <!---INFO-COL---->
+					<div class="info-col">
+						<h2>Information</h2>
+						<ul>
+							<a href="#">Online Enquiry</a>
+						</ul>
+						<ul>
+							<a href="#">General Enquiries</a>
+						</ul>
+						<ul>
+							<a href="#">Booking Conditions</a>
+						</ul>
+						<ul>
+							<a href="#">Privacy and Policy</a>
+						</ul>
+						<ul>
+							<a href="#">Refund Policy</a>
+						</ul>
+						<ul>
+							<a href="#">Call Us</a>
+						</ul>
+					</div>  <!---INFO-COL---->
+					<div class="info-col">
+						<h2>Experience</h2>
+						<ul>
+							<a href="#">Adventure</a>
+						</ul>
+						<ul>
+							<a href="#">Hotel and Restaurant</a>
+						</ul>
+						<ul>
+							<a href="#">Comping</a>
+						</ul>
+						<ul>
+							<a href="#">Beach</a>
+						</ul>
+						<ul>
+							<a href="#">Nature</a>
+						</ul>
+						<ul>
+							<a href="#">Party</a>
+						</ul>
+					</div>  <!---INFO-COL---->
+					<div class="info-col">
+						<h2>Vacation</h2>
+						<div class="date">
+							<div class="line">
+								<div class="line-icon">
+									<ion-icon name="pin"></ion-icon>
+								</div>
+								<div class="line-text-1">
+									203 Fake St. Mountain View, San Francisco, California, USA
+								</div>
+							</div> <!----LINE---->
+							<a class="line" href="#">
+								<div class="line-icon">
+									<ion-icon name="call"></ion-icon>
+								</div>
+								<div class="line-text">
+									+2 392 3929 210
+								</div>
+							</a> <!----LINE---->
+							<a class="line" href="#">
+								<div class="line-icon">
+									<ion-icon name="mail-unread"></ion-icon>
+								</div>
+								<div class="line-text">
+									info@yourdomain.com
+								</div>
+							</a> <!----LINE---->
+						</div>
+					</div>  <!---INFO-COL---->
+				</div>  <!---FOOTER_FLEX---->
+				<div class="pie-de-fondo">Copyright ©2019 All rights reserved | This template is made with<ion-icon name="heart"></ion-icon>by Colorlib</div>
+			</div>  <!---CONTAINER---->
+		</footer>
+
+	</div><!--destination-view-->
 
 
 
