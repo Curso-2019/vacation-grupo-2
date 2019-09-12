@@ -19,6 +19,7 @@
 @import 'components/blog-content.css';
 @import 'components/post.css';
 @import 'components/vacation-icon.css';
+@import 'components/button-pag.css';
 /* Views */
 @import 'home.css';
 @import 'about.css';
