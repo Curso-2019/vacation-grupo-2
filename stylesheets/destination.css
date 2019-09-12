@@ -4,7 +4,6 @@
 
 .destinatio-view .hero{
 	background-attachment: fixed;
-
 }
 
 .destinatio-view .section-title h2{
@@ -61,6 +60,18 @@
 
 .destinatio-view .menu-fixed a{
 	color: #000 !important;
+}
+
+@media (max-width: 796px){
+
+	.destinatio-view .row-four{
+		flex-wrap: wrap;
+
+	}
+
+	.destinatio-view .row-four .col{
+		width: 100%
+	}
 }
 
 
