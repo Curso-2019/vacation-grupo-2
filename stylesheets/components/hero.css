@@ -54,7 +54,7 @@
 }
 
 header li{
-	padding:20px;
+	padding:16px;
 	color: white;
 	text-shadow: #000000;
 }
@@ -81,7 +81,7 @@ header li{
 
 .hero ul li.book{
 	background:#f9ab30;
-	border-radius:2px;
+	border-radius:3px;
 	
 }
 .hero .menu-responsive{
@@ -92,15 +92,35 @@ header li{
 	color:#f9ab30;
 }
 
+/*para dejar estatio el menu*/
+
+.hero .menu-fixed{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 100;
+	background: #fff;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .9);
+	width: 100%;
+	padding: 0 120px;
+}
+
+.hero .menu-fixed a{
+	color: #000 !important;
+
+}
+
+.hero .menu-fixed 
+
 /*COMIENZA EL MEDIA PARA TABLETA*/
 
-@media (min-width: 800px){
+@media (min-width: 991px){
 	.hero nav{
 		display: block !important;
 	}
 }
 
-@media (max-width: 800px){
+@media (max-width: 990px){
 
 	.hero .logo{
 		padding: 16px;
