@@ -42,6 +42,8 @@
     background: #f9ab31;
     border-radius: 50px;
     padding: 20px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .adventure .adventure-col .adventure-info2 h2{
