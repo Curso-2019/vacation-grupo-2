@@ -20,6 +20,7 @@
 @import 'components/post.css';
 @import 'components/vacation-icon.css';
 @import 'components/destination.css';
+@import 'components/author.css';
 /* Views */
 @import 'home.css';
 @import 'about.css';
