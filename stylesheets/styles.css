@@ -24,6 +24,8 @@
 @import 'components/search-blog.css';
 @import 'components/travelTheWorld.css';
 @import 'components/travel-the-world.css';
+@import 'components/comment.css';
+
 /* Views */
 @import 'home.css';
 @import 'about.css';

@@ -1,0 +1,49 @@
+.comment{
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comment .comment-grid{
+    display: flex;
+}
+
+.comment .image{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.comment .image img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.comment .info, .comment .content h3{
+    margin-left: 30px;
+}
+
+.comment .content .info span{
+    display: block;
+    color: #CCC;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.comment .content .info p{
+    color: #999;
+}
+
+.comment .content .info a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 16px;
+    color: #000;
+    background: #e6e6e6;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.comment .comment{
+    padding-left: 10%;
+}
