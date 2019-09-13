@@ -12,8 +12,8 @@
 <body>
     
     <div class="home">
-        <div class="hero">
-            <div class="mask">
+        <div class="hero"  style="background-image: url('images/bg_2.jpg')">
+            <div class="mask" >
                 <div class="container">
                     <header>
                         <div class="logo">
@@ -42,19 +42,87 @@
                             </li>
                         </ul>
                     </header>
-                    <div class="bottom">
-                        <h1>About Us</h1>
-                        <h3>
-                            <a>Home ></a>
-                            <a>About Us ></a>
-                        </h3>
+                    
+                    <div class="info">
+                        <div class="content">
+                            <a href="#">
+                                <ion-icon name="play"  class="icon-play"></ion-icon>
+                            </a>
+                            
+                            <p>
+                                Travel to the any corner of the world, without going around in circles
+                            </p>
+                            
+                        </div>
+                        
+                        <h1>Make Your Tour Amazing With Us</h1>
                     </div>
+                    
+                    
+                    <!--COMIENZO  DEL SEARCH BAR-->
+                    
+                    <div class="search-hero">
+                        <div class="container">
+                            <div class="search-bar">
+                                <div class="search-col">
+                                    <h3>Destination</h3>
+                                    <div class="search-col-flex">
+                                        <ion-icon name="ios-search"></ion-icon>
+                                        <input class="input-search" type="text" placeholder="Search Place">
+                                    </div>
+                                </div> <!----SEARCH-COL----->
+                                <div class="search-col">
+                                    <h3>Check-in date</h3>
+                                    <div class="search-col-flex">
+                                        <ion-icon name="ios-calendar"></ion-icon>
+                                        <input class="input-search datepicker-here" type="text" placeholder="Check In Date" data-language="es">
+                                    </div>
+                                </div> <!----SEARCH-COL----->
+                                <div class="search-col">
+                                    <h3>Check-out date</h3>
+                                    <div class="search-col-flex">
+                                        <ion-icon name="ios-calendar"></ion-icon>
+                                        <input class="input-search datepicker-here" type="text" placeholder="Check Out Date" data-language="es">
+                                    </div>
+                                </div> <!----SEARCH-COL----->
+                                <div class="search-col">
+                                    <h3>Price Limit</h3>
+                                    <div class="search-col-flex">
+                                        <ion-icon name="ios-arrow-down"></ion-icon>
+                                        <select class="input-search" name="select">
+                                            <option value="value1">$5,000</option> 
+                                        </select>
+                                    </div>
+                                </div> <!----SEARCH-COL----->
+                                <div class="search-col">
+                                    <button>Search</button>
+                                </div>
+                            </div> <!----SEARCH-BAR----->
+                        </div>
+                    </div>
+                    
+                    <!--FIN DEL SEARCH BAR-->
+                    
                 </div>
+                
+                
             </div>
             
         </div>
         
         <!--HERO-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -183,7 +251,17 @@
             <div class="flex-4">
                 <div class="tour-col">
                     <!-- tour-->
-                    <div class="tour">
+                    <div class="tour" style="background-image: url('images/place-1.jpg')">
+                        <a href="#">
+                            <h2>Singapore</h2>
+                            <div class="info">8 Tour</div>
+                        </a>
+                    </div><!--tour-->
+                </div>
+                
+                <div class="tour-col">
+                    <!-- tour-->
+                    <div class="tour" style="background-image: url('images/place-2.jpg')">
                         <a href="#">
                             <h2>Canada</h2>
                             <div class="info">2 Tour</div>
@@ -193,30 +271,20 @@
                 
                 <div class="tour-col">
                     <!-- tour-->
-                    <div class="tour">
+                    <div class="tour" style="background-image: url('images/place-3.jpg')">
                         <a href="#">
-                            <h2>Canada</h2>
-                            <div class="info">2 Tour</div>
+                            <h2>Thailand</h2>
+                            <div class="info">5 Tour</div>
                         </a>
                     </div><!--tour-->
                 </div>
                 
                 <div class="tour-col">
                     <!-- tour-->
-                    <div class="tour">
+                    <div class="tour" style="background-image: url('images/place-4.jpg')">
                         <a href="#">
-                            <h2>Canada</h2>
-                            <div class="info">2 Tour</div>
-                        </a>
-                    </div><!--tour-->
-                </div>
-                
-                <div class="tour-col">
-                    <!-- tour-->
-                    <div class="tour">
-                        <a href="#">
-                            <h2>Canada</h2>
-                            <div class="info">2 Tour</div>
+                            <h2>Autralia</h2>
+                            <div class="info">5 Tour</div>
                         </a>
                     </div><!--tour-->
                 </div>
@@ -234,7 +302,7 @@
         
         
         <div class="section-title">
-            Best Place Destination
+            Tour Destination
         </div>
         
         
@@ -253,8 +321,7 @@
                 
                 <div class="col">
                     <div class="destination">
-                        <div class="photo">
-                            
+                        <div class="photo" style="background-image: url(images/destination-1.jpg)">
                             <div class="destination-btn">
                                 <a href="#">$300/person</a>
                             </div>
@@ -269,7 +336,7 @@
                             <div class="icon">
                                 <p><i class="fas fa-bath"></i>2</p>
                                 <p><i class="fas fa-bed"></i>3</p>
-                                <p><i class="fas fa-mountain"></i>Near Mountain</p>
+                                <p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
                                 
                             </div>
                         </div><!--destination-info-->
@@ -279,8 +346,7 @@
                 
                 <div class="col">
                     <div class="destination">
-                        <div class="photo">
-                            
+                        <div class="photo" style="background-image: url(images/destination-2.jpg)">
                             <div class="destination-btn">
                                 <a href="#">$300/person</a>
                             </div>
@@ -295,7 +361,7 @@
                             <div class="icon">
                                 <p><i class="fas fa-bath"></i>2</p>
                                 <p><i class="fas fa-bed"></i>3</p>
-                                <p><i class="fas fa-mountain"></i>Near Mountain</p>
+                                <p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
                                 
                             </div>
                         </div><!--destination-info-->
@@ -305,8 +371,7 @@
                 
                 <div class="col">
                     <div class="destination">
-                        <div class="photo">
-                            
+                        <div class="photo" style="background-image: url(images/destination-3.jpg)">
                             <div class="destination-btn">
                                 <a href="#">$300/person</a>
                             </div>
@@ -321,7 +386,7 @@
                             <div class="icon">
                                 <p><i class="fas fa-bath"></i>2</p>
                                 <p><i class="fas fa-bed"></i>3</p>
-                                <p><i class="fas fa-mountain"></i>Near Mountain</p>
+                                <p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
                                 
                             </div>
                         </div><!--destination-info-->
@@ -331,8 +396,7 @@
                 
                 <div class="col">
                     <div class="destination">
-                        <div class="photo">
-                            
+                        <div class="photo" style="background-image: url(images/destination-4.jpg)">
                             <div class="destination-btn">
                                 <a href="#">$300/person</a>
                             </div>
@@ -347,7 +411,7 @@
                             <div class="icon">
                                 <p><i class="fas fa-bath"></i>2</p>
                                 <p><i class="fas fa-bed"></i>3</p>
-                                <p><i class="fas fa-mountain"></i>Near Mountain</p>
+                                <p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
                                 
                             </div>
                         </div><!--destination-info-->
@@ -357,8 +421,7 @@
                 
                 <div class="col">
                     <div class="destination">
-                        <div class="photo">
-                            
+                        <div class="photo" style="background-image: url(images/destination-5.jpg)">
                             <div class="destination-btn">
                                 <a href="#">$300/person</a>
                             </div>
@@ -373,7 +436,7 @@
                             <div class="icon">
                                 <p><i class="fas fa-bath"></i>2</p>
                                 <p><i class="fas fa-bed"></i>3</p>
-                                <p><i class="fas fa-mountain"></i>Near Mountain</p>
+                                <p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
                                 
                             </div>
                         </div><!--destination-info-->
@@ -383,8 +446,7 @@
                 
                 <div class="col">
                     <div class="destination">
-                        <div class="photo">
-                            
+                        <div class="photo" style="background-image: url(images/destination-6.jpg)">
                             <div class="destination-btn">
                                 <a href="#">$300/person</a>
                             </div>
@@ -399,7 +461,7 @@
                             <div class="icon">
                                 <p><i class="fas fa-bath"></i>2</p>
                                 <p><i class="fas fa-bed"></i>3</p>
-                                <p><i class="fas fa-mountain"></i>Near Mountain</p>
+                                <p><i class="fas fa-umbrella-beach"></i>Near Beach</p>
                                 
                             </div>
                         </div><!--destination-info-->
@@ -496,6 +558,14 @@
         
         
         
+        
+        
+        <div class="section-title">
+            Recent Post
+        </div>
+        
+        
+        <!--TITULO-->
         
         
         
