@@ -51,7 +51,11 @@
     text-align: center;
     padding-top: 150px;
     margin: 0 auto;
-
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
 }
 
 .home .hero .info .content a{
