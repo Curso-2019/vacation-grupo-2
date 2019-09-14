@@ -100,3 +100,14 @@
 .home .flex-3 .col .post .image{
     background-position: top center;
 }
+
+@media screen and (max-Width: 640px){
+
+    .home .flex-4, .home .flex-6, .home .flex-3{
+        flex-wrap: wrap;
+    }
+
+    .home .flex-4 .tour-col, .home .flex-6 .col, .home .flex-3 .col{
+        width: 100%;
+    }
+}

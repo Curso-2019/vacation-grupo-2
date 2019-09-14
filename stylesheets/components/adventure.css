@@ -4,11 +4,11 @@
     padding: 50px;
 }
 
-.adventure-section{
+.adventure .adventure-section{
     display: flex;
 }
 
-.adventure-col{
+.adventure .adventure-col{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -57,4 +57,17 @@
     color: #999;
     margin-top: 20px;
     line-height: 2;
+}
+
+@media screen and (min-Width: 640px){
+
+    .adventure .adventure-section{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .adventure .adventure-col{
+        width: 100%;
+    }
 }
