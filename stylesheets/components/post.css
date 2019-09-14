@@ -6,11 +6,14 @@
 .post .image{
 	margin-bottom: 20px;
 	position: relative;
+
 }
 
 .post .image img{
 	width: 100%;
 	display: block;
+	height: 238px;
+	object-fit: cover;
 }
 
 .post h2{
