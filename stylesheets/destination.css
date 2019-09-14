@@ -1,0 +1,91 @@
+.destinatio-view{
+
+}
+
+.destinatio-view .hero{
+	background-attachment: fixed;
+
+}
+
+.destinatio-view .section-title h2{
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+.destinatio-view .row{
+	margin-top: 100px;
+}
+
+.destinatio-view .row-four{
+	display: flex;
+}
+
+
+.destinatio-view .row-four .col{
+	width: 25%;
+	padding: 10px;
+}
+
+.destinatio-view .row-12{
+	flex-wrap: wrap;
+}
+
+.destinatio-view .row-12 .col{
+	width: 33.33%;
+}
+
+.destinatio-view .namber{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.destinatio-view .namber .col{
+	margin: 5px;
+	padding: 20px 0;
+
+}
+
+.destinatio-view .namber .col a{
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	border: 1px solid #e6e6e6;
+
+}
+
+.destinatio-view .namber .col:hover a{
+	background: #33313B;
+	color: #fff;
+}
+
+.destinatio-view .active{
+	background: #33313B;
+	color: #fff !important;
+}
+
+.destinatio-view .menu-fixed{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 100;
+	background: #fff;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .9);
+	width: 100%;
+	padding: 0 120px;
+
+
+
+}
+
+.destinatio-view .menu-fixed a{
+	color: #000 !important;
+}
+
+
+
