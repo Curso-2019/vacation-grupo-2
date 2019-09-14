@@ -35,3 +35,8 @@
 	height: 238px;
     object-fit: cover;
 }
+
+.blog-view .row-next-page{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
