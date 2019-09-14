@@ -34,35 +34,11 @@
 	width: 33.33%;
 }
 
-.destinatio-view .namber{
-	display: flex;
-	justify-content: center;
-	margin-bottom: 50px;
+.destinatio-view .next-pag{
+	padding-top:50px;
+	padding-bottom: 100px;
 }
 
-.destinatio-view .namber .col{
-	margin: 5px;
-	padding: 20px 0;
-
-}
-
-.destinatio-view .namber .col a{
-	text-decoration: none;
-	color: #000;
-	text-align: center;
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	border-radius: 50%;
-	border: 1px solid #e6e6e6;
-
-}
-
-.destinatio-view .namber .col:hover a{
-	background: #33313B;
-	color: #fff;
-}
 
 .destinatio-view .active{
 	background: #33313B;
