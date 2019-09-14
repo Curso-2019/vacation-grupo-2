@@ -1,0 +1,26 @@
+.contact-view{
+}
+.contact-view .flex-4{
+	display: flex;
+}
+
+.contact-view .flex-4 .col{
+	width: 25%;
+}
+
+.contact-view .container.icons{
+	padding: 7% 0;
+}
+
+.contact-view .flex-2 .col{
+	width:50%;
+	padding:15px;
+}
+
+.contact-view .flex-2{
+	display:flex;
+}
+
+.contact-view footer{
+	margin-top:5%;
+}
