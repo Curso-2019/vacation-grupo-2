@@ -59,3 +59,25 @@
 .feedback .representante .name p{
     color: #999;
 }
+
+@media screen and (max-Width: 640px){
+
+    .feedback .info{
+        flex-wrap: wrap;
+    }
+
+    .feedback .info .info-col{
+        width: 100%;
+    }
+}
+
+@media screen and (min-Width: 768px){
+
+    .feedback .info{
+        flex-wrap: wrap;
+    }
+
+    .feedback .info .info-col{
+        width: 50%;
+    }
+}
