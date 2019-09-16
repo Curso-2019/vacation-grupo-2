@@ -52,11 +52,34 @@
 	color: white;
 	border: none;
 	border-radius: 50px;
-	font-size: 15px;
+	font-size: 16px;
 	transition: 0.5s;
 	cursor: pointer;
 }
 
 .search-bar .search-col button:hover{
 	background-color: #ffba4c;
+}
+
+
+@media screen and (max-width: 985px){
+	.search-bar{
+		flex-wrap: wrap;
+	}
+
+	.search-bar .search-col{
+		width: 50% !important;
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	.search-bar .search-col button{
+		padding: 32px 50%;
+		margin: 0 auto;
+	}
+
+	.search-bar .search-col .input-search{
+		width: 50%;
+		justify-content: space-between;
+	}
 }
