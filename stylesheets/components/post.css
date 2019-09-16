@@ -55,3 +55,38 @@
 	font-weight: 300;
 	font-size: 12px;
 }
+
+@media screen and (max-width: 990px){
+	.post{
+		margin-top: 20px;
+	}
+
+	.post-col{
+		width: 50% !important;
+	}
+}
+
+@media screen and (max-width: 785px){	
+	.post h2{
+		font-size: 18px;
+	}
+
+	.post p{
+		font-size: 15px;
+	}
+}
+
+
+@media screen and (max-width: 685px){
+	.post-col{
+		width: 100% !important;
+	}
+
+	.post h2{
+		font-size: 25px;
+	}
+
+	.post p{
+		font-size: 16px;
+	}
+}
