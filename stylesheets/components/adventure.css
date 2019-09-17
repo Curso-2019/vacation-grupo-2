@@ -1,7 +1,7 @@
 .adventure{
     font-family: 'Poppins', sans-serif;
     background: #f9fafb;
-    padding: 50px;
+    padding: 10%;
 }
 
 .adventure .adventure-section{
@@ -59,7 +59,25 @@
     line-height: 2;
 }
 
-@media screen and (max-Width: 640px){
+@media screen and (max-width: 768px){
+
+    .adventure .adventure-section{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .adventure .adventure-col{
+        width: 100%;
+    }
+
+    .adventure .adventure-col .content{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 640px){
 
 
     .adventure .adventure-section{
@@ -82,19 +100,3 @@
     }
 }
 
-@media screen and (min-Width: 768px){
-
-    .adventure .adventure-section{
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-
-    .adventure .adventure-col{
-        width: 100%;
-    }
-
-    .adventure .adventure-col .content{
-        width: 50%;
-    }
-}

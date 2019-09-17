@@ -60,18 +60,7 @@
     color: #999;
 }
 
-@media screen and (max-Width: 640px){
-
-    .feedback .info{
-        flex-wrap: wrap;
-    }
-
-    .feedback .info .info-col{
-        width: 100%;
-    }
-}
-
-@media screen and (min-Width: 768px){
+@media screen and (max-width: 768px){
 
     .feedback .info{
         flex-wrap: wrap;
@@ -79,5 +68,16 @@
 
     .feedback .info .info-col{
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px){
+
+    .feedback .info{
+        flex-wrap: wrap;
+    }
+
+    .feedback .info .info-col{
+        width: 100%;
     }
 }
