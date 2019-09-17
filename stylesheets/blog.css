@@ -6,6 +6,7 @@
 .blog-view .flex-3{
 	display: flex;
 	flex-wrap: wrap;
+	padding-top: 20%;
 }
 
 
@@ -14,7 +15,6 @@
 	width: 33.33%;
 	padding: 10px;
 	margin-bottom: 30px;
-	margin-top: 100px;
 }
 
 
@@ -39,4 +39,20 @@
 .blog-view .row-next-page{
 	margin-top: 80px;
 	margin-bottom: 80px;
+}
+
+@media screen and (max-width: 765px){
+	.blog-view .flex-3 .col{
+		width: 50%;
+	}
+
+	.blog-view .post h2{
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 435px){
+	.blog-view .flex-3 .col{
+		width: 100%;
+	}
 }
