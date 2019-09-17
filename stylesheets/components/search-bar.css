@@ -65,21 +65,47 @@
 @media screen and (max-width: 985px){
 	.search-bar{
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.search-bar .search-col{
-		width: 50% !important;
+		width: 50%;
 		display: inline-block;
 		margin-top: 20px;
 	}
 
+	.search-bar .search-col:last-child{
+		width: 100%;
+	}
+
 	.search-bar .search-col button{
-		padding: 32px 50%;
+		width: 100%;
+		padding: 32px;
 		margin: 0 auto;
+		margin-top: 20px;
 	}
 
 	.search-bar .search-col .input-search{
 		width: 50%;
-		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 585px){
+	.search-bar .search-col{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 335px){
+	.search-bar .search-col .input-search{
+		font-size: 15px;
+	}
+
+	.search-bar .search-col ion-icon{
+		font-size: 15px;
+	}
+
+	.search-bar .search-col button{
+		padding: 20px;
 	}
 }
