@@ -4,7 +4,6 @@
 
 .destinatio-view .hero{
 	background-attachment: fixed;
-
 }
 
 .destinatio-view .section-title h2{
@@ -18,6 +17,8 @@
 
 .destinatio-view .row-four{
 	display: flex;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
 
@@ -54,14 +55,32 @@
 	box-shadow: 0 3px 5px rgba(0, 0, 0, .9);
 	width: 100%;
 	padding: 0 120px;
-
-
-
 }
 
 .destinatio-view .menu-fixed a{
 	color: #000 !important;
 }
 
+@media (max-width: 796px){
 
+	.destinatio-view .row-four{
+		flex-wrap: wrap;
 
+	}
+
+	.destinatio-view .row-four .col{
+		width: 50%
+	}
+}
+
+@media (max-width: 640px){
+
+	.destinatio-view .row-four{
+		flex-wrap: wrap;
+
+	}
+
+	.destinatio-view .row-four .col{
+		width: 100%
+	}
+}

@@ -31,6 +31,7 @@
 .travel-the-world .travel-info2{
 	display: flex;
 	justify-content: space-between;
+	text-align: center;
 
 }
 
@@ -44,6 +45,28 @@
 	color: #f9ab30;
 }
 
+@media (max-width: 776px){
+	.travel-the-world{
+		flex-direction:column;
+
+	}
+	.travel-the-world .travel-info h2{
+		font-size: 28px;
+		padding-top: 15%;
+	}
+
+	.travel-the-world .travel-info{
+		margin:0;
+	}
+
+	.travel-the-world .travel-info2{
+		flex-direction: column;
+
+
+	}
+
+
+}
 
 
 
