@@ -71,7 +71,7 @@
 	.search-bar .search-col{
 		width: 50%;
 		display: inline-block;
-		margin-top: 20px;
+		margin-top: 5px;
 	}
 
 	.search-bar .search-col:last-child{
@@ -80,9 +80,9 @@
 
 	.search-bar .search-col button{
 		width: 100%;
-		padding: 32px;
+		padding: 24px;
 		margin: 0 auto;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 
 	.search-bar .search-col .input-search{
@@ -90,9 +90,31 @@
 	}
 }
 
-@media screen and (max-width: 585px){
+@media screen and (max-width: 685px){
+	.search-bar .search-col h3{
+		font-size: 16px;
+	}
+
+	.search-bar .search-col .input-search{
+		font-size: 15px;
+	}
+
+	.search-bar .search-col ion-icon{
+		font-size: 15px;
+	}
+
+	.search-bar .search-col button{
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 385px){
 	.search-bar .search-col{
 		width: 100%;
+	}
+
+	.search-bar .search-col button{
+		padding: 20px;
 	}
 }
 
