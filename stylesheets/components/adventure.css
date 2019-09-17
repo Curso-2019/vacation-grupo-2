@@ -1,16 +1,23 @@
 .adventure{
     font-family: 'Poppins', sans-serif;
     background: #f9fafb;
-    padding: 10%;
+    padding: 10% 0;
 }
 
 .adventure .adventure-section{
     display: flex;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.adventure .align{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 .adventure .adventure-col{
-    display: flex;
-    flex-wrap: wrap;
     width: 50%;
     padding: 30px;
 }
