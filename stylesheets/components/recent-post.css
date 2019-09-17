@@ -37,19 +37,20 @@
     display: flex;  
     width: 100%;
     flex-wrap: wrap;
+    margin:-17px;
 }
 
 .recent-post .info{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .recent-post .recent .fechas-icono .info .icon, .recent-post .recent .fechas-icono .info span{
-    font-size: 12px;
+    font-size: 10px;
     color: #999;
     vertical-align: middle;
 }
 
 .recent-post .recent .fechas-icono .info .icon{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 10px;
 }
