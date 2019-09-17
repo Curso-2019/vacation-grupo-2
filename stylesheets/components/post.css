@@ -68,10 +68,6 @@
 
 
 @media screen and (max-width: 685px){
-	.post-col{
-		width: 100% !important;
-	}
-
 	.post h2{
 		font-size: 25px;
 	}
