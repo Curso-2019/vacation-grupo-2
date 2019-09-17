@@ -6,7 +6,7 @@
 .post .image{
 	margin-bottom: 20px;
 	position: relative;
-
+	display: block;
 }
 
 .post .image img{
