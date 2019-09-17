@@ -103,6 +103,14 @@
     background-position: top center;
 }
 
+@media screen and (max-width: 991px){
+    
+    .home .hero .info,   .home .hero .search-hero{
+        position: static;
+        transform: none;
+    }
+}
+
 @media screen and (max-width: 768px){
 
     .home .flex-4, .home .flex-6, .home .flex-3{
@@ -112,6 +120,7 @@
     .home .flex-4 .tour-col, .home .flex-6 .col, .home .flex-3 .col{
         width: 50%;
     }
+
 }
 
 @media screen and (max-width: 640px){
