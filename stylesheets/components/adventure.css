@@ -89,6 +89,7 @@
     .adventure .adventure-col{
         width: 100%;
         padding: 0;
+        margin-bottom: 20px;
     }
 
     .adventure .adventure-col .content{
@@ -97,6 +98,14 @@
 
     .adventure .adventure-col .adventure-info2 p{
         padding: 10px;
+    }
+
+    .adventure .content .icon{
+        text-align: center;
+    }
+
+    .adventure .content .adventure-info h3{
+        text-align: center;
     }
 }
 

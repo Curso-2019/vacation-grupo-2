@@ -4,6 +4,7 @@
     background-image: url('../../images/bg_3.jpg');
     background-size: cover;
     background-position: bottom;
+    padding-bottom: 50px;
 }
 
 .feedback .titulo h2{
@@ -16,8 +17,9 @@
 
 .feedback .info{
     display: flex;
-    padding: 50px;
     padding-top: 60px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .feedback .info .info-col{
@@ -67,7 +69,12 @@
     }
 
     .feedback .info .info-col{
-        width: 50%;
+        width: 100%;
+    }
+    
+    .feedback .info{
+        margin-right: -10px;
+        margin-left: -10px;
     }
 }
 
@@ -79,5 +86,10 @@
 
     .feedback .info .info-col{
         width: 100%;
+    }
+
+    .feedback .info{
+        margin-right: -50px;
+        margin-left: -50px;
     }
 }
