@@ -56,16 +56,6 @@
 	font-size: 12px;
 }
 
-@media screen and (max-width: 990px){
-	.post{
-		margin-top: 20px;
-	}
-
-	.post-col{
-		width: 50% !important;
-	}
-}
-
 @media screen and (max-width: 785px){	
 	.post h2{
 		font-size: 18px;
