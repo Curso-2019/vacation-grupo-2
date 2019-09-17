@@ -3,6 +3,7 @@ footer{
 	background-image: url('../../images/footer-bg.jpg');
 	background-position: bottom;
 	background-size: cover;
+	padding-top: 60px;
 }
 
 footer .footer-flex{
@@ -16,12 +17,14 @@ footer .info-col{
 	width: 25%;
 	padding: 30px;
 	margin-top: 50px;
+	padding: 10px;
 }
 
 
 footer .info-col h2{
 	color: white;
 	margin-bottom: 45px;
+	margin-bottom: 40px;
 	font-weight: 400;
 	font-size: 20px;
 }
@@ -113,4 +116,50 @@ footer .pie-de-fondo{
 	padding-bottom: 120px;
 }
 
+@media screen and (max-width: 800px){
+	footer .footer-flex{
+		flex-wrap: wrap;
+	}
 
+	footer .info-col{
+		width: 50%
+	}
+
+	footer .info-col .info-icon ion-icon{
+		font-size: 28px;
+		margin-left: 12px;
+		margin-top: 20%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	footer .footer-flex{
+		flex-wrap: wrap;
+   		flex-direction: column;
+	}
+
+	footer .info-col{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	footer .info-col:nth-child(1){
+		margin-top: 50px;
+	}
+
+	footer .info-col .info-icon ion-icon{
+		font-size: 28px;
+		margin-left: 4px;
+	}
+
+	footer .pie-de-fondo{
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 485px){
+	footer .info-col .info-icon ion-icon{
+		font-size: 25px;
+		margin-left: 4px;
+	}
+}
