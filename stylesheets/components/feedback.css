@@ -71,11 +71,6 @@
     .feedback .info .info-col{
         width: 100%;
     }
-    
-    .feedback .info{
-        margin-right: -10px;
-        margin-left: -10px;
-    }
 }
 
 @media screen and (max-width: 640px){
@@ -86,10 +81,5 @@
 
     .feedback .info .info-col{
         width: 100%;
-    }
-
-    .feedback .info{
-        margin-right: -50px;
-        margin-left: -50px;
     }
 }
