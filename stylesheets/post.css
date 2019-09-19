@@ -1,0 +1,106 @@
+.post-view .flex-2{
+	display:flex;
+	font-family: 'Poppins', sans-serif;
+	margin-left:-10px;
+	margin-right:-10px;
+} 
+
+.post-view .flex-2 .col-left{
+	width:33.33%;
+	padding:10px;
+	background:#f8f9fa;
+	padding-top:10%;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.post-view .flex-2 .col-right{
+	width:66.66%;
+	padding:10px;
+}
+
+.post-view .recent-post{
+	padding:0;
+}
+
+.post-view .recent-post .recent{
+	margin-bottom:40px;
+}
+
+.post-view .menu-blog h3{
+	margin-bottom:15px;
+	margin-top:40px;
+	color:rgba(0,0,0,.8);
+}
+
+.post-view .recent-post .recent .image img{
+	object-fit:cover;
+}
+
+.post-view .sidebar-info h3{
+	margin-bottom:20px;
+	margin-top:40px;
+}
+
+.post-view .sidebar-info{
+	margin-top:30px; 	
+
+}
+
+.post-view .tags{
+	margin-top:70px;
+}
+
+.post-view .hero{
+	background-attachment:fixed;
+}
+
+.post-view .tags2{
+	background:#fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tags2 .tag-individuales a{
+    text-decoration-line: none;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top:20px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+.tags2 .tag-individuales a:hover{
+    border: 1px solid #000;
+}
+
+.post-view .author{
+	margin:10px;
+}
+
+.post-view .comment .content .info span{
+	margin-bottom:5px;
+}
+
+.post-view .title-comment{
+	font-size:25px;
+	font-weight:400;
+	margin-top:60px;
+	margin-bottom:20px;
+	margin-left:10px;
+}
+
+.post-view .comment-grid:nth-child(2){
+	margin-right:20px;
+}
+
+
+
+.post-view .form{
+	margin:10px;
+}
+

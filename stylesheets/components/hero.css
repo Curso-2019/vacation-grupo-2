@@ -32,7 +32,7 @@
 .logo .small{
 	font-size:14px;
 	text-align:center;
-	font-weight:450;
+	font-weight:500;
 }
 
 .hero header{
@@ -48,15 +48,15 @@
 	z-index:900;
 }
 
-.hero header a{
-	text-decoration: none;
-	color:white;
-}
-
-header li{
-	padding:16px;
+.hero header li{
+	padding:20px;
 	color: white;
 	text-shadow: #000000;
+}
+
+.hero header li a{
+	color:white;
+	text-decoration:none;
 }
 
 .hero .bottom{
@@ -87,7 +87,6 @@ header li{
 .hero .menu-responsive{
 	display: none;
 }
-
 .hero .about-link a{
 	color:#f9ab30 !important;
 }
@@ -113,6 +112,10 @@ header li{
 
 .hero .menu-fixed .logo{
 	padding: 20px;
+
+}
+.hero ul li.about-link a{
+	color:#f9ab30;
 
 }
 

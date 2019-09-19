@@ -3,10 +3,11 @@
 }
 
 .blog-content h2{
-	margin-top: 50px;
+	margin-top: 15%;
 	margin-bottom: 20px;
 	font-size: 32px;
 	font-weight: 400;
+	color:rgba(0,0,0,.8);
 }
 
 

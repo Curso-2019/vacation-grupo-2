@@ -1,6 +1,7 @@
 .menu-blog{
     font-family: 'Poppins', sans-serif;
     background: #f8f9fa;
+    font-size:15px;
 }
 
 .menu-blog h3{
@@ -18,7 +19,7 @@
 }
 
 .menu-blog li{
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -31,7 +32,7 @@
 }
 
 .menu-blog li a span{
-    color: #999;
+    color:#ccc;
     position: absolute;
     right: 0;
 }
