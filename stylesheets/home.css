@@ -22,6 +22,7 @@
 
 .home .flex-6 .col{
     width: 33.33%;
+    padding: 15px;
 }
 
 .home .flex-3{
@@ -45,6 +46,8 @@
 .home .hero .search-hero{
     position: absolute;
     bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .home .hero .info{
@@ -79,7 +82,7 @@
     color: #fff;
     line-height: 1.2;
     font-weight: 300;
-    padding: 0 150px 0 150px;
+    padding: 0 5% 0 5%;
     margin-bottom: 20px;
     display: inline-block;
 }
@@ -100,3 +103,36 @@
 .home .flex-3 .col .post .image{
     background-position: top center;
 }
+
+@media screen and (max-width: 991px){
+    
+    .home .hero .info,   .home .hero .search-hero{
+        position: static;
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .home .flex-4, .home .flex-6, .home .flex-3{
+        flex-wrap: wrap;
+    }
+
+    .home .flex-4 .tour-col, .home .flex-6 .col, .home .flex-3 .col{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .home .flex-4, .home .flex-6, .home .flex-3{
+        flex-wrap: wrap;
+    }
+
+    .home .flex-4 .tour-col, .home .flex-6 .col, .home .flex-3 .col{
+        width: 100%;
+    }
+}
+
+

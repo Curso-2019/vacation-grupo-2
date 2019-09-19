@@ -4,6 +4,7 @@
     background-image: url('../../images/bg_3.jpg');
     background-size: cover;
     background-position: bottom;
+    padding-bottom: 50px;
 }
 
 .feedback .titulo h2{
@@ -16,8 +17,9 @@
 
 .feedback .info{
     display: flex;
-    padding: 50px;
     padding-top: 60px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .feedback .info .info-col{
@@ -58,4 +60,26 @@
 
 .feedback .representante .name p{
     color: #999;
+}
+
+@media screen and (max-width: 768px){
+
+    .feedback .info{
+        flex-wrap: wrap;
+    }
+
+    .feedback .info .info-col{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px){
+
+    .feedback .info{
+        flex-wrap: wrap;
+    }
+
+    .feedback .info .info-col{
+        width: 100%;
+    }
 }
