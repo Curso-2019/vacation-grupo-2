@@ -46,20 +46,6 @@
 	color: #fff !important;
 }
 
-.destinatio-view .menu-fixed{
-	position: fixed;
-	top: 0;
-	right: 0;
-	z-index: 100;
-	background: #fff;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, .9);
-	width: 100%;
-	padding: 0 120px;
-}
-
-.destinatio-view .menu-fixed a{
-	color: #000 !important;
-}
 
 @media (max-width: 796px){
 

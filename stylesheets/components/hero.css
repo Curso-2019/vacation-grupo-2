@@ -54,7 +54,7 @@
 }
 
 header li{
-	padding:20px;
+	padding:16px;
 	color: white;
 	text-shadow: #000000;
 }
@@ -81,26 +81,50 @@ header li{
 
 .hero ul li.book{
 	background:#f9ab30;
-	border-radius:2px;
+	border-radius:3px;
 	
 }
 .hero .menu-responsive{
 	display: none;
 }
 
-.hero ul li.about-link{
-	color:#f9ab30;
+.hero .about-link a{
+	color:#f9ab30 !important;
+}
+
+/*para dejar estatio el menu*/
+
+.hero .menu-fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding:0 60px;
+	z-index: 1000;
+	background: #fff;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .9);
+
+}
+
+.hero .menu-fixed a{
+	color: #000 !important;
+
+}
+
+.hero .menu-fixed .logo{
+	padding: 20px;
+
 }
 
 /*COMIENZA EL MEDIA PARA TABLETA*/
 
-@media (min-width: 800px){
+@media (min-width: 991px){
 	.hero nav{
 		display: block !important;
 	}
 }
 
-@media (max-width: 800px){
+@media (max-width: 990px){
 
 	.hero .logo{
 		padding: 16px;
