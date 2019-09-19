@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>post</title>
 	<link rel="stylesheet" href="../stylesheets/styles.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<style>
   	.post-grid{
 		display: flex;
@@ -12,6 +13,22 @@
   	.post-col{
   		width: 33.33%;
   		padding: 12px;
+  	}
+
+  	@media screen and (max-width: 990px){
+  		.post{
+  			margin-top: 20px;
+  		}
+
+  		.post-col{
+  			width: 50% !important;
+  		}
+  	}
+
+  	@media screen and (max-width: 685px){
+  		.post-col{
+  			width: 100% !important;
+  		}
   	}
   </style>
 </head>
