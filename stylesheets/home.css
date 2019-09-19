@@ -106,9 +106,13 @@
 
 @media screen and (max-width: 991px){
     
-    .home .hero .info,   .home .hero .search-hero{
+    .home .hero .info{
         position: static;
         transform: none;
+    }
+
+    .home .hero .mask{
+        padding-bottom: 375px;
     }
 }
 
@@ -133,6 +137,20 @@
     .home .flex-4 .tour-col, .home .flex-6 .col, .home .flex-3 .col{
         width: 100%;
     }
+
 }
+
+@media screen and (max-width: 585px){
+
+    .home .hero .mask {
+        padding-bottom: 587px;
+    }
+    
+}
+
+
+
+
+
 
 

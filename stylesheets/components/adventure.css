@@ -116,8 +116,12 @@
         text-align: center;
     }
 
-    .adventure .content .adventure-info h3{
+    .adventure .content .adventure-info h3, .adventure .content .adventure-info p{
         text-align: center;
+    }
+
+    .adventure .adventure-col .adventure-info2 h2{
+        font-size: 34px;
     }
 
     .adventure .adventure-col .buttom{
