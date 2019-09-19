@@ -4,15 +4,22 @@
 	padding: 20px;
 }
 
-.form input, .form textarea{
+.form input, .form textarea, .form label{
 	width:100%;
 	display: block;
 	margin: 20px 10px;
 	font-size: 16px;
-	padding: 10px;
-	border-radius: 5px;
-	border: 1px solid #999;
+	padding: 5px;
+}
 
+.form label{
+	color: #999;
+}
+
+.form input, .form textarea{
+	border-radius: 5px;
+	border: 1px solid #CED4DA;
+	padding: 10px;
 }
 
 .form .btn{
@@ -28,5 +35,5 @@
 
 .form input:focus, .form textarea:focus{
 	outline:none;
-	border: 1px solid #000;
+	border: 1px solid #171717;
 }
