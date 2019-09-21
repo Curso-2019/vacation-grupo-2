@@ -18,8 +18,8 @@
 }
 .hero .logo{
 	background:#33313b;
-	border-radius:0 0 3px 3px;
-	padding:25px;
+	border-radius:0;
+	padding:20px;
 	line-height:1;
 	
 }
@@ -81,7 +81,7 @@
 
 .hero ul li.book{
 	background:#f9ab30;
-	border-radius:3px;
+	border-radius:6px;
 	
 }
 .hero .menu-responsive{
@@ -141,7 +141,7 @@
 	
 	.hero header{
 		flex-direction: column;
-		padding: 0 10%;
+		padding:0;
 		padding-bottom: 0;
 		position: relative;
 	}
