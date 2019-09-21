@@ -24,3 +24,8 @@
 .contact-view footer{
 	margin-top:5%;
 }
+
+.contact-view .hero{
+	background-attachment:fixed;
+}
+
