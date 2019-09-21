@@ -87,9 +87,6 @@
 .hero .menu-responsive{
 	display: none;
 }
-.hero .about-link a{
-	color:#f9ab30 !important;
-}
 
 /*para dejar estatio el menu*/
 .hero .menu-wrapper{
@@ -112,14 +109,12 @@
 	top: 0;
 }
 
-.hero .menu-fixed header li:not(.book) a{
+.hero .menu-fixed header li:not(.book):not(.about-link) a{
 	color: #000 !important;
 }
 
-
-.hero ul li.about-link a{
-	color:#f9ab30;
-
+.hero .about-link a{
+	color:#f9ab30 !important;
 }
 
 /*COMIENZA EL MEDIA PARA TABLETA*/
