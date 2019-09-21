@@ -29,3 +29,41 @@
 	background-attachment:fixed;
 }
 
+/*EMPIEZA PARA TABLET*/
+
+@media screen and (max-width:768px){
+	.contact-view .flex-4{
+		flex-wrap:wrap;
+	}
+	
+	.contact-view .flex-4 .col{
+		width:50%;
+	}
+	
+	.contact-view .flex-4 .col .vacation-icon{
+		margin-bottom:25px;
+	}
+	
+	.contact-view .flex-2{
+		flex-wrap:wrap;
+	}
+	
+	.contact-view .flex-2 .col{
+		width:100%;
+	}
+}
+/*TERMINA PARA TABLET*/
+
+/*EMPIEZA PARA CELULAR*/
+
+@media screen and (max-width:400px){
+	.contact-view .flex-4 .col{
+		width:100%;
+	}
+}
+
+
+
+
+
+
